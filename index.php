@@ -57,9 +57,9 @@
         </div>
       </nav>
 
-      <section class="col-12 h-100 " id="sxhome">
+      <section class="col-12" id="sxhome">
 
-        <div class="d-flex h-100">
+        <div class="d-flex">
           <div class="col-6">
             <h5>
               Welcome to Swexzo,
