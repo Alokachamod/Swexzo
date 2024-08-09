@@ -14,7 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark" style="overflow: hidden;">
   <div class="container-fluid">
     <div class="col-12">
       <nav class="navbar navbar-expand-lg col-10 offset-1 header">
@@ -57,16 +57,16 @@
         </div>
       </nav>
 
-      <section class="col-12 h-100 border-bottom-1" id="sxhome">
+      <section class="col-12 h-100 " id="sxhome">
 
         <div class="d-flex h-100">
           <div class="col-6">
             <h5>
-            Welcome to Swexzo, 
+              Welcome to Swexzo,
             </h5>
-            <p>
+            <h6>
               cutting-edge software company committed to delivering innovative technology solutions that empower businesses and enhance digital experiences
-            </p>
+            </h6>
           </div>
           <div class="homeanimation d-flex position-absolute offset-6 col-lg-6">
             <div id="lottie-animation" style="width: 600px; height: 600px;">
