@@ -162,6 +162,7 @@ a, a:hover {
   overflow: hidden;
   position: relative;
   color: #ffffff;
+  animation: shadowPulse 2s infinite;
 
 	&.dark {
 		background-color: #18151f;
@@ -323,6 +324,19 @@ a, a:hover {
     }
   }
 }
+
+@keyframes shadowPulse {
+  0% {
+    box-shadow: 0 0 20px 0 rgba(51, 254, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px 0 rgba(51, 254, 0, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 20px 0 rgba(51, 254, 0, 0.5);
+  }
+}
+
 @media screen and (min-width: 1024px){
 		.postcard__text {
       padding: 2rem 3.5rem;
@@ -353,7 +367,7 @@ a, a:hover {
 /* COLORS */
 .postcard .postcard__tagbox .green.play:hover {
 	background: $main-green;
-	color: black;
+	background: #00ff00;	color: black;
 }
 .green .postcard__title:hover {
 	color: $main-green;

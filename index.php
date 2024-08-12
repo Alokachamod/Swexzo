@@ -84,84 +84,98 @@
           <div class="stitle text-light text-center">Our Services</div>
           <br>
           <div class="container py-4">
-		<h1 class="h1 text-center" id="pageHeaderTitle">My Cards Dark</h1>
 
 		<article class="postcard dark blue">
 			<a class="postcard__img_link" href="#">
-				<img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+				<img class="postcard__img" src="RESOURCES/web design.jpg" alt="Image Title" />
 			</a>
-			<div class="postcard__text">
-				<h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+			<div class="postcard__text g-1">
+				<h1 class="postcard__title blue">Web Design</h1>
 				<div class="postcard__subtitle small">
-					
+				
 				</div>
 				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<div class="postcard__preview-txt">
+          <div>
+            <p>Delivering responsive web designs with striking graphics that elevate your brand. We craft visually compelling and brand-focused websites that adapt seamlessly across all devices.</p>
+        </div>
+       
+        </div>
 				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play blue">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					<li class="tag__item">Ai</li>
+					<li class="tag__item">Ps</li>
+					<li class="tag__item">
+						Pr
 					</li>
 				</ul>
 			</div>
 		</article>
 		<article class="postcard dark red">
 			<a class="postcard__img_link" href="#">
-				<img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
+				<img class="postcard__img" src="resources/web dev.jpg" alt="Image Title" />	
 			</a>
 			<div class="postcard__text">
-				<h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
+				<h1 class="postcard__title red">Web Developing</h1>
 				<div class="postcard__subtitle small">
 					
 				</div>
 				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<div class="postcard__preview-txt">
+        <div>
+            <p>Building robust, responsive websites with integrated graphic design and branding, backed by powerful backend solutions for seamless performance</p>
+        </div>
+        </div>
 				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play red">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					<li class="tag__item">html</li>
+					<li class="tag__item">CSS</li>
+					<li class="tag__item">
+						java Script
 					</li>
+          <li class="tag__item">PHP</li>
 				</ul>
 			</div>
 		</article>
-		<article class="postcard dark green">
+
+    <article class="postcard dark yellow">
 			<a class="postcard__img_link" href="#">
-				<img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+				<img class="postcard__img" src="resources/e-commerce-digital-internet-technology-web-concept.jpg" alt="Image Title" />
 			</a>
 			<div class="postcard__text">
-				<h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
-				<div class="postcard__subtitle small"
+				<h1 class="postcard__title yellow">E-Commerce</h1>
+				<div class="postcard__subtitle small">
+					
 				</div>
 				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
-				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play green">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
-					</li>
+        <div>
+            <p>Building responsive, visually engaging websites with strong branding, robust backend systems, and secure payment gateways. We ensure your site is both functional and visually stunning.</p>
+        </div>
+        <ul class="postcard__tagbox">
+					<li class="tag__item">payhere</li>
+					<li class="tag__item">Stripe</li>
+					
 				</ul>
 			</div>
 		</article>
+		
 		<article class="postcard dark yellow">
 			<a class="postcard__img_link" href="#">
-				<img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
+				<img class="postcard__img" src="resources/iot.jpg" alt="Image Title" />
 			</a>
 			<div class="postcard__text">
-				<h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+				<h1 class="postcard__title yellow">IOT Solution</h1>
 				<div class="postcard__subtitle small">
 					
 				</div>
 				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<div class="postcard__preview-txt">
+        <div>
+            <p>Empowering innovators with cutting-edge IoT solutions. We help you connect, monitor, and optimize devices seamlessly, driving innovation and transforming ideas into intelligent systems.</p>
+        </div>
+        </div>
 				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play yellow">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
-					</li>
+					<li class="tag__item">Arduino</li>
+					<li class="tag__item">C++</li>
+					
 				</ul>
 			</div>
 		</article>
