@@ -9,3 +9,5 @@ var animation = lottie.loadAnimation({
 animation.setSpeed(0.5); // Set the playback speed
 animation.setDirection(1); // 1 for forward, -1 for reverse
 
+
+

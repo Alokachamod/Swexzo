@@ -13,7 +13,7 @@ body {
   -webkit-backdrop-filter: blur(10px);  /* For Safari support */
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 255, 72, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(0, 255, 72, 0.697);
   margin-top: 10px;
   position: fixed;
   
@@ -48,7 +48,7 @@ body {
   font-family: "Share Tech Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 
@@ -118,6 +118,13 @@ body {
   
 }
 
+.sxproject{
+  height: 100vh;
+  margin-top: 90vh;
+  
+}
+
+
 .stitle{
   font-family: "Chakra Petch", sans-serif;
   font-weight: 600;
@@ -162,7 +169,6 @@ a, a:hover {
   overflow: hidden;
   position: relative;
   color: #ffffff;
-  animation: shadowPulse 2s infinite;
 
 	&.dark {
 		background-color: #18151f;
@@ -324,19 +330,6 @@ a, a:hover {
     }
   }
 }
-
-@keyframes shadowPulse {
-  0% {
-    box-shadow: 0 0 20px 0 rgba(51, 254, 0, 0.5);
-  }
-  50% {
-    box-shadow: 0 0 40px 0 rgba(51, 254, 0, 0.7);
-  }
-  100% {
-    box-shadow: 0 0 20px 0 rgba(51, 254, 0, 0.5);
-  }
-}
-
 @media screen and (min-width: 1024px){
 		.postcard__text {
       padding: 2rem 3.5rem;
@@ -492,3 +485,9 @@ a, a:hover {
 		);
 	}
 }
+
+/*project*/
+
+
+
+
