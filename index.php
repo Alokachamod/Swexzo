@@ -13,6 +13,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="icon" href="resources/swexzo logo.jpg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
 </head>
 
@@ -45,7 +47,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link position-relative g-6 m-2 " href="#">
+                <a class="nav-link position-relative g-6 m-2 " href="#sxteam">
                   <p class="htext">Our Team</p>
                 </a>
               </li>
@@ -79,7 +81,7 @@
         </div>
       </section>
 
-      <section class="col-12 sxservice " id="sxservice">
+      <section class="col-12 sxservice" id="sxservice">
         <div class="col-12">
           <div class="stitle text-light text-center">Our Services</div>
           <br>
@@ -186,22 +188,53 @@
           </div>
         </div>
       </section>
-      <section class="col-12 sxproject h-100" id="sxproject">
+      <section class="col-12 sxproject h- " id="sxproject">
         <div class="col-12">
           <div class="stitle text-light text-center">Our Projects</div>
           <div class="col-12">
-            <div class="row">
-              <div class="d-flex d-block">
-                <div class="col-lg-4 ">
-                  <div class="card h-100 ">
-                    <img class="card-img-top" src="resources/aloka.jpg" alt="Card image">
-                    
-                  </div>
+            <div class="photo-gallery">
+              <div class="container">
+                <div class="row photos">
+                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources/aloka_nb.png" data-lightbox="photos"><img class="img-fluid" src="resources/aloka_nb.png"  ></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources/themiya.png" data-lightbox="photos"><img class="img-fluid" src="resources/themiya.png" ></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources\charithma.png" data-lightbox="photos"><img class="img-fluid" src="resources\charithma.png" ></a></div>
+                  <div class="col-12">
+              <div class="icons">
+                <div class="icons-slide">
+                  <img src="icon/html-5_5968267.png" alt="">
+                  <img src="icon/css-3.png" alt="">
+                  <img src="icon/js.png" alt="">
+                  <img src="icon/php.png" alt="">
+                  <img src="icon/bootstrap.png" alt="">
+                  <img src="icon/mysql.png" alt="">
+                  <img src="icon/python.png" alt="">
+                  <img src="icon/java.png" alt="">
+                  <img src="icon/c-.png" alt="">
+                
                 </div>
+                <div class="icons-slide">
+                  <img src="icon/html-5_5968267.png" alt="">
+                  <img src="icon/css-3.png" alt="">
+                  <img src="icon/js.png" alt="">
+                  <img src="icon/php.png" alt="">
+                  <img src="icon/bootstrap.png" alt="">
+                  <img src="icon/mysql.png" alt="">
+                  <img src="icon/python.png" alt="">
+                  <img src="icon/java.png" alt="">
+                  <img src="icon/c-.png" alt="">
+                
+                </div>
+            </div>
+          </div>
                 </div>
               </div>
             </div>
-          </div>
+            
+        </div>
+      </section>
+      <section class="col-12 sxteam h-100" id="sxteam">
+        <div class="col-12">
+        <div class="stitle text-light text-center">Our Team</div>
         </div>
       </section>
 
@@ -209,8 +242,14 @@
     </div>
   </div>
   </div>
+  <script>
+    var copy = document.querySelector(".logo-slide").cloneNode(true);
+    document.querySelector('.logos').appendChild(copy);
+  </script>
   <script src="script.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
