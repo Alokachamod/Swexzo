@@ -508,6 +508,11 @@ a:hover {
 
 }
 
+
+.sxteam{
+  margin-top: 20%;
+}
+
 @media (max-width:1024px) {
   .sxproject{
   
@@ -542,6 +547,14 @@ a:hover {
   height: 100vh;
   padding-bottom: 20px;
   }
+
+    .sxteam{
+  
+  margin-top: 800PX;
+  height: 100vh;
+  padding-bottom: 20px;
+  }
+  
 }
 
 @media (max-width:345px){
@@ -551,6 +564,14 @@ a:hover {
     height: 100vh;
     padding-bottom: 20px;
     }
+
+    .sxteam{
+  
+    margin-top: 500PX;
+    height: 100vh;
+    padding-bottom: 20px;
+    }
+
 }
 
 
@@ -628,4 +649,76 @@ a:hover {
   height: 80px;
   margin: 0 50px;
 }
+
+
+.sxteambody{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Merriweather";
+}
+.person {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+.containert {
+  height: 312px;
+  width: 400px;
+  cursor: pointer;
+  transform: scale(0.48);
+  transition: transform 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+.circle {
+  position: absolute;
+  background: var(--color);
+  height: 380px;
+  width: 380px;
+  top: 210px;
+  left: 10px;
+  border-radius: 50%;
+}
+.person img {
+  position: relative;
+  width: 340px;
+  top: 164px;
+  left: 22px;
+  transform: translateY(20px) scale(1.15);
+  transition: transform 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+.conianer-innert {
+  position: relative;
+  clip-path: path("M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z");
+  top: -200px;
+}
+.divider {
+  height: 3px;
+  width: 130px;
+  border-radius: 5px;
+  background: var(--color);
+}
+.person h1 {
+  color: #464646;
+  margin: 16px 0 0 0;
+}
+.person p {
+  font-family: arial;
+  color: #6e6e6e;
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* hover */
+.containert:hover {
+  transform: scale(0.54);
+} 
+.containert:hover img {
+  transform: translateY(0) scale(1.3);
+}
+
 

@@ -195,46 +195,86 @@
             <div class="photo-gallery">
               <div class="container">
                 <div class="row photos">
-                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources/aloka_nb.png" data-lightbox="photos"><img class="img-fluid" src="resources/aloka_nb.png"  ></a></div>
-                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources/themiya.png" data-lightbox="photos"><img class="img-fluid" src="resources/themiya.png" ></a></div>
-                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources\charithma.png" data-lightbox="photos"><img class="img-fluid" src="resources\charithma.png" ></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources/aloka_nb.png" data-lightbox="photos"><img class="img-fluid" src="resources/aloka_nb.png"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources/themiya.png" data-lightbox="photos"><img class="img-fluid" src="resources/themiya.png"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources\charithma.png" data-lightbox="photos"><img class="img-fluid" src="resources/charithma.png"></a></div>
+                  <div class="col-sm-6 col-md-4 col-lg-4 item "><a href="resources\charithma.png" data-lightbox="photos"><img class="img-fluid" src="resources/givindu.png"></a></div>
                   <div class="col-12">
-              <div class="icons">
-                <div class="icons-slide">
-                  <img src="icon/html-5_5968267.png" alt="">
-                  <img src="icon/css-3.png" alt="">
-                  <img src="icon/js.png" alt="">
-                  <img src="icon/php.png" alt="">
-                  <img src="icon/bootstrap.png" alt="">
-                  <img src="icon/mysql.png" alt="">
-                  <img src="icon/python.png" alt="">
-                  <img src="icon/java.png" alt="">
-                  <img src="icon/c-.png" alt="">
-                
-                </div>
-                <div class="icons-slide">
-                  <img src="icon/html-5_5968267.png" alt="">
-                  <img src="icon/css-3.png" alt="">
-                  <img src="icon/js.png" alt="">
-                  <img src="icon/php.png" alt="">
-                  <img src="icon/bootstrap.png" alt="">
-                  <img src="icon/mysql.png" alt="">
-                  <img src="icon/python.png" alt="">
-                  <img src="icon/java.png" alt="">
-                  <img src="icon/c-.png" alt="">
-                
-                </div>
-            </div>
-          </div>
+                    <div class="icons">
+                      <div class="icons-slide">
+                        <img src="icon/html-5_5968267.png" alt="">
+                        <img src="icon/css-3.png" alt="">
+                        <img src="icon/js.png" alt="">
+                        <img src="icon/php.png" alt="">
+                        <img src="icon/bootstrap.png" alt="">
+                        <img src="icon/mysql.png" alt="">
+                        <img src="icon/python.png" alt="">
+                        <img src="icon/java.png" alt="">
+                        <img src="icon/c-.png" alt="">
+
+                      </div>
+                      <div class="icons-slide">
+                        <img src="icon/html-5_5968267.png" alt="">
+                        <img src="icon/css-3.png" alt="">
+                        <img src="icon/js.png" alt="">
+                        <img src="icon/php.png" alt="">
+                        <img src="icon/bootstrap.png" alt="">
+                        <img src="icon/mysql.png" alt="">
+                        <img src="icon/python.png" alt="">
+                        <img src="icon/java.png" alt="">
+                        <img src="icon/c-.png" alt="">
+
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            
-        </div>
+
+          </div>
       </section>
       <section class="col-12 sxteam h-100" id="sxteam">
         <div class="col-12">
-        <div class="stitle text-light text-center">Our Team</div>
+          <div class="stitle text-light text-center">Our Team</div>
+          <div class="">
+            <div class="sxteambody">
+              <div class="person" style="--color: #782a2b">
+                <div class="containert">
+                  <div class="conianer-innert">
+                    <div class="circle"></div>
+                    <img src="profileimg/aloka.png">
+                  </div>
+                </div>
+                <div class="divider"></div>
+                <h1>Rosa Lewis</h1>
+                <p>Senior UX/UI Designer</p>
+              </div>
+
+              <div class="person" style="--color: #37375e">
+                <div class="container">
+                  <div class="conianer-inner">
+                    <div class="circle"></div>
+                    <img src="profileimg/givindu.png">
+                  </div>
+                </div>
+                <div class="divider"></div>
+                <h1>John Willis</h1>
+                <p>Senior Full-Stack Developer</p>
+              </div>
+
+              <div class="person" style="--color: #3e6e7c">
+                <div class="container">
+                  <div class="conianer-inner">
+                    <div class="circle"></div>
+                    <img src="images/image-3.png">
+                  </div>
+                </div>
+                <div class="divider"></div>
+                <h1>Sandy Rogers</h1>
+                <p>Senior Product Manager</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -248,8 +288,8 @@
   </script>
   <script src="script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
