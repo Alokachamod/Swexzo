@@ -29,12 +29,12 @@ if(empty($name)){
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'alokachamod3@gmail.com';
-        $mail->Password = 'rxzwkyvqyssipohf';
+        $mail->Password = 'qgkt prib kccj fjwa';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
         $mail->setFrom('alokachamod3@gmail.com', 'submit contact data');
         $mail->addReplyTo('alokachamod3@gmail.com', 'submit contact data');
-        $mail->addAddress('slteengeek@gmail.com');
+        $mail->addAddress('alokachamod3@gmail.com');
         $mail->isHTML(true);
         $mail->Subject = $subject;
         $bodyContent = 
