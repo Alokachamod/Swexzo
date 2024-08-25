@@ -656,7 +656,7 @@ a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  
   font-family: "Merriweather";
 }
 .person {
@@ -676,7 +676,7 @@ a:hover {
 }
 .circle {
   position: absolute;
-  background: var(--color);
+  background-color: #00ff2a;
   height: 380px;
   width: 380px;
   top: 210px;
@@ -685,7 +685,7 @@ a:hover {
 }
 .person img {
   position: relative;
-  width: 340px;
+  width: 380px;
   top: 164px;
   left: 22px;
   transform: translateY(20px) scale(1.15);
@@ -701,11 +701,13 @@ a:hover {
   height: 3px;
   width: 130px;
   border-radius: 5px;
-  background: var(--color);
+  background-color: #00ff2a;
 }
 .person h1 {
   color: #464646;
+  text-shadow: #00ff00 60px 20px 0 0;
   margin: 16px 0 0 0;
+  text-align: center;
 }
 .person p {
   font-family: arial;
@@ -719,6 +721,162 @@ a:hover {
 } 
 .containert:hover img {
   transform: translateY(0) scale(1.3);
+}
+
+/* contact us*/
+
+/* From Uiverse.io by DavidTM96 */ 
+.form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: inherit;
+  gap: 10px;
+  padding-inline: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  background-color: #0a192f;
+  border-radius: 20px;
+}
+
+.form-heading {
+  text-align: center;
+  margin: 2em;
+  color: #f9fff9;
+  font-size: 1.2em;
+  background-color: transparent;
+  align-self: center;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 30px;
+
+  text-shadow: 2px 2px 4px #00ff00;
+
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 10px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #ccd6f6;
+  padding-inline: 1em;
+}
+
+.sendMessage-btn {
+  cursor: pointer;
+  margin-bottom: 3em;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #00ff08;
+  font-weight: bold;
+  outline: 1px solid #01ff2f;
+  transition: all ease-in-out 0.3s;
+}
+
+.sendMessage-btn:hover {
+  transition: all ease-in-out 0.3s;
+  background-color: #00ff09;
+  color: #000;
+  cursor: pointer;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.form-card1 {
+  background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%);
+  border-radius: 22px;
+  transition: all 0.3s;
+}
+
+.form-card1:hover {
+  box-shadow: 0px 0px 30px 1px rgba(1, 255, 60, 0.796);
+}
+
+.form-card2 {
+  border-radius: 0;
+  transition: all 0.2s;
+}
+
+.form-card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.contactform{
+  margin-top: 80px;
+}
+
+/*footer*/
+
+.footer-link {
+  color: #1aea27;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.social-icon {
+  color: #ddd;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.social-icon img:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #ffffff3a;
+  padding: 20px 0;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.footer .container .row h5 {
+  color: #f8f9fa;
+}
+
+.footer .container .row ul li {
+  margin-bottom: 10px;
+}
+
+.footer .container .row ul li a {
+  color: #adb5bd;
+}
+
+.footer .container .row ul li a:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer .container .row {
+      text-align: center;
+  }
 }
 
 

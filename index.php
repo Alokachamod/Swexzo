@@ -52,7 +52,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link position-relative g-6 m-2 " href="#">
+                <a class="nav-link position-relative g-6 m-2 " href="#sxcontact">
                   <p class="htext">Contact us</p>
                 </a>
               </li>
@@ -232,52 +232,155 @@
             </div>
 
           </div>
+        </div>
       </section>
       <section class="col-12 sxteam h-100" id="sxteam">
         <div class="col-12">
           <div class="stitle text-light text-center">Our Team</div>
-          <div class="">
-            <div class="sxteambody">
-              <div class="person" style="--color: #782a2b">
+          <div class="col-12">
+            <div class="sxteambody col-12 d-flex flex-wrap justify-content-center align-items-center">
+              <div class="person col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                 <div class="containert">
                   <div class="conianer-innert">
                     <div class="circle"></div>
-                    <img src="profileimg/aloka.png">
+                    <img src="profileimg/aloka.png" class="img-fluid">
                   </div>
                 </div>
-                <div class="divider"></div>
-                <h1>Rosa Lewis</h1>
-                <p>Senior UX/UI Designer</p>
+                <div class="divider my-2"></div>
+                <h1 class="text-center">Aloka Chamod Champathi</h1>
+                <p class="text-center">Founder | Full Stack Developer</p>
               </div>
 
-              <div class="person" style="--color: #37375e">
-                <div class="container">
-                  <div class="conianer-inner">
+              <div class="person col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                <div class="containert">
+                  <div class="conianer-innert">
                     <div class="circle"></div>
-                    <img src="profileimg/givindu.png">
+                    <img src="profileimg/themiya.png" class="img-fluid">
                   </div>
                 </div>
-                <div class="divider"></div>
-                <h1>John Willis</h1>
-                <p>Senior Full-Stack Developer</p>
+                <div class="divider my-2"></div>
+                <h1 class="text-center">Themiya Ravindu</h1>
+                <p class="text-center">Front-End Developer</p>
               </div>
 
-              <div class="person" style="--color: #3e6e7c">
-                <div class="container">
-                  <div class="conianer-inner">
+              <div class="person col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                <div class="containert">
+                  <div class="conianer-innert">
                     <div class="circle"></div>
-                    <img src="images/image-3.png">
+                    <img src="profileimg/hashini.png" class="img-fluid">
                   </div>
                 </div>
-                <div class="divider"></div>
-                <h1>Sandy Rogers</h1>
-                <p>Senior Product Manager</p>
+                <div class="divider my-2"></div>
+                <h1 class="text-center">Hashini Rathnayaka</h1>
+                <p class="text-center">Front-End Developer</p>
+              </div>
+
+              <div class="person col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                <div class="containert">
+                  <div class="conianer-innert">
+                    <div class="circle"></div>
+                    <img src="profileimg/givindu.png" class="img-fluid">
+                  </div>
+                </div>
+                <div class="divider my-2"></div>
+                <h1 class="text-center">Givindu Liyanage</h1>
+                <p class="text-center">Full Stack Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 sxcontact h-100" id="sxcontact">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <!-- Animation section for large screens only -->
+            <!-- From Uiverse.io by DavidTM96 -->
+            <div class="contactanimation position-absolute col-lg-6 d-none d-lg-block">
+              <div id="lottie-animationc" style="width: 700px; height: 700px;"></div>
+            </div>
+
+            <!-- Form section -->
+            <div class="contactform col-12 col-md-8 col-lg-4 offset-lg-7 offset-md-2 justify-content-center">
+              <div class="form-card1">
+                <div class="form-card2">
+                  <form class="form">
+                    <p class="form-heading">Contact Us</p>
+
+                    <div class="form-field">
+                      <input required="" placeholder="Name" class="input-field" type="text" id="name" />
+                    </div>
+
+                    <div class="form-field">
+                      <input required="" placeholder="Email" class="input-field" type="email" id="email" />
+                    </div>
+
+                    <div class="form-field">
+                      <input required="" placeholder="Subject" class="input-field" type="text" id="subject" />
+                    </div>
+
+                    <div class="form-field">
+                      <textarea required="" placeholder="Message" cols="30" rows="3" class="input-field" id="massage"></textarea>
+                    </div>
+
+                    <button class="sendMessage-btn" onclick=" contactProcess();">Send Message</button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <footer class="footer  text-white pt-4">
+        <div class="container">
+          <div class="row">
+            <!-- Logo Section -->
+            <div class="col-md-4">
+              <img src="resources/Swexzo company logo.png" alt="logo" height="70px">
+              <p>At Swexzo, we empower businesses to thrive in the digital age.
+                As your partner in digital transformation, we blend innovative technology with expert solutions to drive growth and success.
+                Together, let's shape the future of your business.</p>
+            </div>
+            <!-- Quick Links Section -->
+            <div class="col-md-4">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#sxhome" class="footer-link">Home</a></li>
+                <li><a href="#sxservice" class="footer-link">Services</a></li>
+                <li><a href="#sxproject" class="footer-link">Projects</a></li>
+                <li><a href="#sxteam" class="footer-link">Team</a></li>
+                <li><a href="#sxcontact" class="footer-link">Contact</a></li>
+              </ul>
+            </div>
+            <!-- Services Section -->
+            <div class="col-md-4">
+              <h5>Services</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="footer-link">Web Development</a></li>
+                <li><a href="#" class="footer-link">Web Design</a></li>
+                <li><a href="#" class="footer-link">Portfolio site</a></li>
+                <li><a href="#" class="footer-link">Web base Education system</a></li>
+                <li><a href="#" class="footer-link">E-Commerce web development</a></li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- Social Media Section -->
+          <div class="row mt-3">
+            <div class="col-md-12 col-lg-12 text-center">
+              <h5>Find Us</h5>
+              <a href="#" class="social-icon"><img src="icon/icons8-facebook-logo-50.png" alt="Facebook"></a>
+              <a href="#" class="social-icon"><img src="icon/icons8-linkedin-logo-50.png" alt="LinkedIn"></a>
+              <a href="#" class="social-icon"><img src="icon/icons8-x-logo-50.png" alt="X"></a>
+              <a href="#" class="social-icon"><img src="icon/icons8-youtube-logo-50.png" alt="YouTube"></a>
+            </div>
+
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <p>&copy; 2024 Swexzo. All Rights Reserved.</p>
+        </div>
+      </footer>
 
     </div>
   </div>
@@ -286,12 +389,30 @@
     var copy = document.querySelector(".logo-slide").cloneNode(true);
     document.querySelector('.logos').appendChild(copy);
   </script>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function() {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/66c6021a50c10f7a009ee71b/1i5qngecm';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
