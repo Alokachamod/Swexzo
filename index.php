@@ -30,7 +30,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-xxl-4 ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-xxl-2 ">
               <li class="nav-item ">
                 <a class="nav-link position-relative g-6 m-2 " aria-current="page" href="#sxhome">
                   <p class="htext">Home</p>
@@ -56,15 +56,29 @@
                   <p class="htext">Contact us</p>
                 </a>
               </li>
+
+              <button class="rqb" onclick="openForm();">
+                Request a Qoute
+                <svg fill="currentColor" viewBox="0 0 24 24" class="iconrqb">
+                  <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+                </svg>
+              </button>
             </ul>
+
+
+
           </div>
         </div>
       </nav>
-
+      <div id="form-container" class="form-container">
+        <span class="close-btn" onclick="closeForm()">&times;</span>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf0dgKpfU7xR1M2YdZBSDDu964ZDE4gUxrK1_qmfK_qSxHREA/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
       <section class="col-12 sxhome h-100" id="sxhome">
+
         <div class="row">
           <div class="d-flex">
-            <div class="col-6 text-light">
+            <div class="col-lg-6 col-12 text-light">
               <div class="col-lg-10 offset-lg-1 col-11  offset-1 hometext  ">
                 <img src="resources/Swexzo company logo.png" alt="icon" class="himage offset-2">
                 <p class="slogen1 offset-1">Your partner in</p>

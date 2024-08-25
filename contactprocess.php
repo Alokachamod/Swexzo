@@ -34,19 +34,23 @@ if(empty($name)){
         $mail->Port = 465;
         $mail->setFrom('alokachamod3@gmail.com', 'submit contact data');
         $mail->addReplyTo('alokachamod3@gmail.com', 'submit contact data');
-        $mail->addAddress('alokachamod3@gmail.com');
+        $mail->addAddress('slteengeek@gmail.com');
         $mail->isHTML(true);
         $mail->Subject = $subject;
         $bodyContent = 
-        '<p> '.$name.'<br>
-        '.$email.'<br>
-        '.$massage.'</p>';
+        '<p> 
+        '.$name.
+        '<br>
+        '.$email.
+        '<br>
+        '.$massage.
+        '</p>';
         $mail->Body    = $bodyContent;
 
         if (!$mail->send()) {
             echo 'submit failed.';
         } else {
-            echo 'Success';
+            echo 'success';
         }
     
 }
