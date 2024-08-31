@@ -79,7 +79,7 @@
         <div class="row">
           <div class="d-flex">
             <div class="col-lg-6 col-12 text-light">
-              <div class="col-lg-10 offset-lg-1 col-11  offset-1 hometext  ">
+              <div class="col-lg-10 offset-lg-1 col-11  offset-md-1 hometext  ">
                 <img src="resources/Swexzo company logo.png" alt="icon" class="himage offset-2">
                 <p class="slogen1 offset-1">Your partner in</p>
                 <p class="slogen2 offset-2">Digital Transformation</p>
@@ -268,7 +268,7 @@
               <div class="person col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                 <div class="containert">
                   <div class="conianer-innert">
-                    <div class="circle"></div>
+                    <div class="circle "></div>
                     <img src="profileimg/themiya.png" class="img-fluid">
                   </div>
                 </div>
@@ -356,7 +356,7 @@
                 Together, let's shape the future of your business.</p>
             </div>
             <!-- Quick Links Section -->
-            <div class="col-md-4">
+            <div class="col-md-2">
               <h5>Quick Links</h5>
               <ul class="list-unstyled">
                 <li><a href="#sxhome" class="footer-link">Home</a></li>
@@ -367,7 +367,7 @@
               </ul>
             </div>
             <!-- Services Section -->
-            <div class="col-md-4">
+            <div class="col-md-3">
               <h5>Services</h5>
               <ul class="list-unstyled">
                 <li><a href="#" class="footer-link">Web Development</a></li>
@@ -375,6 +375,17 @@
                 <li><a href="#" class="footer-link">Portfolio site</a></li>
                 <li><a href="#" class="footer-link">Web base Education system</a></li>
                 <li><a href="#" class="footer-link">E-Commerce web development</a></li>
+                <li><a href="#" class="footer-link">Graphic Designing</a></li>
+
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="footer-link">info@swexzo.com</a></li>
+                <li><a href="#" class="footer-link">+94704866124</a></li>
+
+                
 
               </ul>
             </div>
@@ -383,10 +394,9 @@
           <div class="row mt-3">
             <div class="col-md-12 col-lg-12 text-center">
               <h5>Find Us</h5>
-              <a href="#" class="social-icon"><img src="icon/icons8-facebook-logo-50.png" alt="Facebook"></a>
-              <a href="#" class="social-icon"><img src="icon/icons8-linkedin-logo-50.png" alt="LinkedIn"></a>
-              <a href="#" class="social-icon"><img src="icon/icons8-x-logo-50.png" alt="X"></a>
-              <a href="#" class="social-icon"><img src="icon/icons8-youtube-logo-50.png" alt="YouTube"></a>
+              <a href="https://web.facebook.com/profile.php?id=61564678530713" class="social-icon"><img src="icon/icons8-facebook-logo-50.png" alt="Facebook"></a>
+              <a href="https://www.linkedin.com/company/swexzo" class="social-icon"><img src="icon/icons8-linkedin-logo-50.png" alt="LinkedIn"></a>
+              <a href="https://www.youtube.com/@Swexzo" class="social-icon"><img src="icon/icons8-youtube-logo-50.png" alt="YouTube"></a>
             </div>
 
           </div>

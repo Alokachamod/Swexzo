@@ -210,6 +210,31 @@ body {
   }
 }
 
+@media (max-width: 426px) {
+  .himage {
+    height: 70px;
+    margin-top: 10%;
+  }
+
+  .slogen1 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .slogen2 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+
 .homeanimation {
   margin-top: 15vh;
 }
@@ -223,7 +248,7 @@ body {
 
 .sxproject {
   height: 100vh;
-  margin-top: 90vh;
+  margin-top: 100vh;
 
 }
 
@@ -650,9 +675,13 @@ a:hover {
 
     .sxteam{
   
-  margin-top: 800PX;
+  margin-top: 700PX;
   height: 100vh;
   padding-bottom: 20px;
+
+  }
+  .icons{
+    margin-top: -50px;
   }
   
 }
@@ -735,6 +764,8 @@ a:hover {
 
 
 
+
+
 .icons:hover .icons-slide{
   animation-play-state: paused;
 }
@@ -782,6 +813,7 @@ a:hover {
   top: 210px;
   left: 10px;
   border-radius: 50%;
+  
 }
 .person img {
   position: relative;
