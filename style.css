@@ -367,13 +367,13 @@ body::-webkit-scrollbar {
 }
 
 .descservice {
-  margin-top: 40vh;
+  margin-top: 30vh;
   height: 100vh;
 }
 
 @media (max-width:1440px) {
   .descservice {
-    margin-top: 30vh;
+    margin-top: 20vh;
     height: 100vh;
   }
 }

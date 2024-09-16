@@ -88,7 +88,7 @@
             </div>
         </div>
     </header>
-    <div class="container-fluid">
+    <div class="container">
         <div class="col-12">
             <section class="descabout col-12">
                 <div class="wwasec">
