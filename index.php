@@ -133,8 +133,9 @@
                 </div>
                 <div class="d-flex justify-content-center col-12 col-md-10">
                     <div class="row">
-                        <div class="webdes">
-                            <img src="" alt="">
+                        <div class="webdes col-3">
+                            <img src="resources/webdes.webp" alt="web design" class="wdesimg img-fluid rounded-start">
+                            div
                         </div>
                     </div>
                 </div>
