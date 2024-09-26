@@ -51,7 +51,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link position-relative g-6 m-2 " href="#sxteam">
-                                        <p class="htext">Our Team</p>
+                                        <p class="htext">About Us</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -334,15 +334,20 @@
                 <div class="col-lg-2 col-md-6 mb-4 text-white">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
                         <li><a href="#" class="text-white text-decoration-none">Services</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Projects</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 text-white">
                     <h5>Follow Us</h5>
                     <a href="#" class="text-white text-decoration-none">GitHub</a><br>
-                    <a href="#" class="text-white text-decoration-none">LinkedIn</a>
+                    <a href="#" class="text-white text-decoration-none">LinkedIn</a><br>
+                    <a href="#" class="text-white text-decoration-none">Facebook</a><br>
+                    <a href="#" class="text-white text-decoration-none">Tik Tok</a><br>
+                    <a href="#" class="text-white text-decoration-none">Youtube</a>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="text-white">Contact Us</h5>
