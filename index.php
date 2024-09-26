@@ -321,7 +321,7 @@
             </div>
         </div>
     </main>
-    <footer class="footer  ">
+    <footer class="footer ">
         <div class="container py-4">
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4 text-white">
@@ -359,8 +359,10 @@
                         <button type="submit" class="btn btn-primary mt-2">Send</button>
                     </form>
                 </div>
+                <p class="text-center text-white"> © 2024 Swexzo. All Rights Reserved.</p>
             </div>
         </div>
+        
     </footer>
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">

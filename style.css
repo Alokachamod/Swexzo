@@ -773,6 +773,7 @@ body::-webkit-scrollbar {
 
 footer {
   background-color: #004d40; /* Dark background */
+  height: auto;
 }
 
 footer a {
