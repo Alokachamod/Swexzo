@@ -35,12 +35,12 @@
                         <div class="collapse navbar-collapse " id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-xxl-2 ">
                                 <li class="nav-item ">
-                                    <a class="nav-link active position-relative g-6 m-2 " aria-current="page" href="#sxhome">
+                                    <a class="nav-link active position-relative g-6 m-2 " aria-current="page" href="#">
                                         <p class="htext">Home</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link position-relative g-6 m-2 " href="#sxservice">
+                                    <a class="nav-link position-relative g-6 m-2 " href="service.php">
                                         <p class="htext">Services</p>
                                     </a>
                                 </li>
@@ -54,11 +54,6 @@
                                         <p class="htext">About Us</p>
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link position-relative g-6 m-2 " href="#sxcontact">
-                                        <p class="htext">Contact us</p>
-                                    </a>
-                                </li>
 
 
                             </ul>
@@ -66,9 +61,9 @@
 
 
                         </div>
-                        <button class="ltbtn">
+                        <a class="ltbtn text-decoration-none" href="https://wa.me/message/GBIEREHVA3SEE1">
                             Let's Talk
-                        </button>
+                        </a>
                     </div>
                 </nav>
 
@@ -322,13 +317,13 @@
         </div>
     </main>
     <footer class="footer ">
-        <div class="container py-4">
+        <div class="container-fluid py-4">
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4 text-white">
                     <div class="footer-logo">
                         <img src="resources/Swexzo company logo.png" alt="Company Logo" class="img-fluid mb-3" style="max-width: 150px;">
                     </div>
-                    <p>we empower businesses to thrive in the digital age. As your partner in digital transformation, we blend innovative technology with expert solutions to drive growth and success. 
+                    <p>we empower businesses to thrive in the digital age. As your partner in digital transformation, we blend innovative technology with expert solutions to drive growth and success.
                         Together, let's shape the future of your business.</p>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4 text-white">
@@ -341,7 +336,7 @@
                         <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4 text-white">
+                <div class="col-lg-2 col-md-6 mb-4 text-white">
                     <h5>Follow Us</h5>
                     <a href="#" class="text-white text-decoration-none">GitHub</a><br>
                     <a href="#" class="text-white text-decoration-none">LinkedIn</a><br>
@@ -349,7 +344,14 @@
                     <a href="#" class="text-white text-decoration-none">Tik Tok</a><br>
                     <a href="#" class="text-white text-decoration-none">Youtube</a>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-2 col-md-6 mb-4 text-white">
+                    <h5 class="text-white">Contact Us</h5>
+                    <a href="info@swexzo.com" class="text-white text-decoration-none"> info@swexzo.com</a><br>
+                    <a href="info@swexzo.com" class="text-white text-decoration-none"> +94 71 884 7994</a>
+
+
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
                     <h5 class="text-white">Contact Us</h5>
                     <form>
                         <div class="form-group">
@@ -364,10 +366,10 @@
                         <button type="submit" class="btn btn-primary mt-2">Send</button>
                     </form>
                 </div>
-                <p class="text-center text-white"> © 2024 Swexzo. All Rights Reserved.</p>
+                <p class="text-center text-white col-12"> © 2024 Swexzo. All Rights Reserved.</p>
             </div>
         </div>
-        
+
     </footer>
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
