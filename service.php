@@ -7,7 +7,7 @@
     <meta name="description" content="Swexzo Services - Transforming your business with cutting-edge digital solutions.">
     <meta name="keywords" content="web development, IoT solutions, software development, digital transformation">
     <meta name="author" content="Swexzo">
-    <title>Document</title>
+    <title>Swexzo - Services</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="resources/swexzo logo.jpg">
@@ -45,7 +45,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link position-relative g-6 m-2 " href="#sxproject">
+                                    <a class="nav-link position-relative g-6 m-2 " href="project.php">
                                         <p class="htext">Projects</p>
                                     </a>
                                 </li>
@@ -83,66 +83,81 @@
         </div>
     </header>
     <main>
-        <div class="container">
-            
-                <!-- Web Design & Development -->
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="service-card">
-                            <h4>Web Design & Development</h4>
-                            <p>Swexzo delivers exceptional web design and development services, ensuring that your online presence is visually captivating, functionally robust, and aligned with your business objectives. We specialize in creating responsive websites that provide a seamless experience across all devices. Our approach blends creativity with technical expertise to develop websites that not only look stunning but also perform optimally.</p>
-                            <ul>
-                                <li>
-                                    <h5>Key Features:</h5>
-                                    <ul>
-                                        <li>Custom web design tailored to your brand’s identity.</li>
-                                        <li>User-friendly interfaces with intuitive navigation.</li>
-                                        <li>Responsive designs for consistent experience across devices.</li>
-                                        <li>Performance optimization for faster load times and improved SEO.</li>
-    
-                                    </ul>
-                                </li>
-                                <li>
-                                    <h5>Our Process:</h5>
-                                    <p> We start with an in-depth consultation to understand your business needs, followed by wireframing and UI/UX design. Once the design is approved, we proceed with coding and development, ensuring quality assurance through rigorous testing. Post-launch, we offer ongoing support and maintenance to keep your site updated and secure.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- E-Commerce Solutions -->
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="service-card">
-                            <h4>E-Commerce Solutions</h4>
-                            <p>We offer cutting-edge e-commerce solutions that drive sales and provide an engaging shopping experience. Our expertise includes payment gateways, shopping cart integration, and real-time analytics.</p>
-                            <ul>
-                                <li>
-                                    <h5>Key Features:</h5>
-                                    <ul>
-                                        <li>Development of scalable and secure online stores using platforms like Shopify, WooCommerce, or custom-built solutions.</li>
-                                        <li>Integration of payment gateways, shopping carts, and order management systems.</li>
-                                        <li>Advanced product categorization, inventory management, and real-time analytics.</li>
-                                        <li>Implementation of personalized recommendations and loyalty programs.</li>
-                                        <li>SEO and digital marketing strategies for increased visibility.</li>
-    
-                                    </ul>
-                                </li>
-                                <li>
-                                    <h5>Our Process:</h5>
-                                    <p> We start by analyzing your business model and target audience to create a bespoke strategy. After crafting a detailed project plan, our team designs and develops your e-commerce store. We focus on optimizing the user experience and incorporating features that drive sales. Once live, we offer continuous support and enhancements to adapt to changing market demands.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+    <div class="container">
+        <!-- Web Design Section -->
+        <div class="row service-section animate-fade">
+            <div class="col-md-6 text-section">
+                <h2>Web Design</h2>
+                <p>
+                Our web design service focuses on creating visually appealing and 
+                user-friendly websites that reflect your brand’s identity and values.
+                At Swexzo, we understand that a website is often the first interaction customers have with your business. Therefore, our approach combines 
+                aesthetics with functionality to leave a lasting impression. We employ the latest design trends, responsive layouts, and intuitive navigation structures to ensure your website looks stunning on any device.
+                From creating engaging graphics to implementing seamless user interfaces, we prioritize creating a design that not only looks great but also enhances the overall user experience.
+                <ul>
+                    <li><b>Responsive Design:</b> Ensures your website looks perfect across all devices—desktops, tablets, and smartphones.</li>
+                    <li><b>UI/UX Optimization:</b> We analyze user behavior and implement designs that increase engagement and reduce bounce rates.</li>
+                    <li><b>Visual Storytelling:</b> Our designers use graphics, icons, and animations to convey your message in an impactful way.</li>
+                    <li><b>Brand Integration:</b> We create designs that align with your brand’s visual identity and business goals.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-md-6 image-section">
+                <img src="resources/webdes.webp" alt="Web Design" class="img-fluid">
+            </div>
         </div>
+
+        <!-- Web Development Section -->
+        <div class="row service-section animate-fade">
+            <div class="col-md-6 text-section order-md-2">
+                <h2>Web Development</h2>
+                <p>
+                Our web development service focuses on building robust, scalable, and secure websites that serve as the backbone of your digital presence. 
+                At Swexzo, we are equipped with a team of experienced developers who specialize in creating custom solutions tailored to your business needs.
+                We work with the latest technologies and frameworks, ensuring that your website is not only fast and responsive but also capable of supporting complex functionalities like integrations with third-party APIs, content management systems, and more. 
+                We pay special attention to coding standards, performance optimization, and testing to deliver a website that functions seamlessly.
+                <ul>
+                    <li><b>Custom Web Solutions:</b> Tailored web development using modern technologies such as HTML5, CSS3, JavaScript, PHP, and more.</li>
+                    <li><b>Performance Optimization:</b> Techniques to enhance page load speeds, server responses, and overall website efficiency.</li>
+                    <li><b>Security and Compliance:</b> Implementation of security best practices to protect your site from vulnerabilities and maintain data integrity.</li>
+                    <li><b>Content Management Systems:</b> Integration with CMS platforms like WordPress, Joomla, or custom CMS solutions to enable easy content updates.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-md-6 image-section order-md-1">
+                <img src="resources/webdev.webp" alt="Web Development" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- E-commerce Development Section -->
+        <div class="row service-section animate-fade">
+            <div class="col-md-6 text-section">
+                <h2>E-commerce Development</h2>
+                <p>
+                Our e-commerce development service is designed to help you build an online store that drives sales and offers a 
+                seamless shopping experience. We understand the unique challenges of e-commerce and are committed to developing 
+                platforms that are user-friendly, secure, and optimized for conversions. Whether you’re starting from scratch or
+                looking to revamp an existing online store, we can integrate features like product catalogs, shopping carts,
+                payment gateways, and order tracking systems to create a complete e-commerce solution. Our development process 
+                is centered around understanding your business model and tailoring the solution to maximize your online potential.
+                <ul>
+                    <li><b>E-commerce Platform Expertise:</b> We work with popular platforms like WooCommerce, Shopify, Magento, and custom solutions.</li>
+                    <li><b>Secure Payment Gateways:</b> Integration with leading payment providers to ensure secure and reliable transactions.</li>
+                    <li><b>Inventory and Order Management:</b> Tools to help you manage products, track orders, and monitor stock levels.</li>
+                    <li><b>Conversion Rate Optimization:</b> Implementation of strategies to increase sales through enhanced user experiences, streamlined checkout processes, and A/B testing</li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-md-6 image-section">
+                <img src="resources/ecomweb.webp" alt="E-commerce Development" class="img-fluid">
+            </div>
+        </div>
+    </div>
     </main>
     <footer class="footer ">
         <div class="container-fluid py-4">
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4 text-white">
+                <div class="col-lg-3 col-md-6 mb-4 text-white">
                     <div class="footer-logo">
                         <img src="resources/Swexzo company logo.png" alt="Company Logo" class="img-fluid mb-3" style="max-width: 150px;">
                     </div>
@@ -174,7 +189,7 @@
 
 
                 </div>
-                <div class="col-lg-2 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="text-white">Contact Us</h5>
                     <form>
                         <div class="form-group">

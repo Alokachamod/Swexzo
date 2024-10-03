@@ -45,12 +45,12 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link position-relative g-6 m-2 " href="#sxproject">
+                                    <a class="nav-link position-relative g-6 m-2 " href="project.php">
                                         <p class="htext">Projects</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link position-relative g-6 m-2 " href="#sxteam">
+                                    <a class="nav-link position-relative g-6 m-2 " href="about.php">
                                         <p class="htext">About Us</p>
                                     </a>
                                 </li>
@@ -319,7 +319,7 @@
     <footer class="footer ">
         <div class="container-fluid py-4">
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4 text-white">
+                <div class="col-lg-3 col-md-6 mb-4 text-white">
                     <div class="footer-logo">
                         <img src="resources/Swexzo company logo.png" alt="Company Logo" class="img-fluid mb-3" style="max-width: 150px;">
                     </div>
@@ -351,7 +351,7 @@
 
 
                 </div>
-                <div class="col-lg-2 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="text-white">Contact Us</h5>
                     <form>
                         <div class="form-group">

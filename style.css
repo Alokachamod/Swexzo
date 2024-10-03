@@ -815,81 +815,147 @@ footer {
   justify-content: center;
 }
 
-.service-card {
-  background-color: #fff;
-  border: 1px solid #e7e7e7;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  margin: 15px;
-  padding: 30px;
-  border-radius: 10px;
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
 }
 
-.service-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.service-icon {
-  font-size: 40px;
-  margin-bottom: 20px;
-  color: #43cea2;
-  transition: color 0.3s;
-}
-
-.service-card:hover .service-icon {
-  color: #004d40;
-}
-
-.process-step {
-  background: white;
-  border: 1px solid #43cea2;
-  padding: 20px;
-  border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
+.service-section {
+  
   margin: 20px 0;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+  
 }
 
-.process-step:hover {
-  transform: scale(1.05);
-  border-color: #004d40;
+/* Styling for Text Sections */
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.process-step h4 {
+.text-section h2 {
+  font-size: 28px;
   margin-bottom: 15px;
-  color: #004d40;
+  font-weight: bold;
 }
 
-.process-step p {
-  color: #555;
+.text-section p {
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-/* Animation styles */
+/* Image Section Styling */
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+
+/* Fade Animation */
 @keyframes fadeInUp {
-  from {
+  0% {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(50px);
   }
-  to {
+  100% {
       opacity: 1;
       transform: translateY(0);
   }
 }
 
-.service-card,
-.process-step {
-  animation: fadeInUp 0.6s ease-in-out;
+.animate-fade {
+  animation: fadeInUp 1s ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 1;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-  .service-card {
-      margin: 20px 0;
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+  .service-section {
+      padding: 15px;
+      margin: 15px 0;
+  }
+
+  .text-section h2 {
+      font-size: 24px;
+  }
+
+  .text-section p {
+      font-size: 14px;
   }
 }
 
-@media (max-width: 576px) {
-  .header {
-      padding: 30px 10px;
-  }
+/*project page*/
+
+.owbg {
+  width: 100%;
+  height: 80vh;
+  background-image: url('resources/owimg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+        /* Styling the Project Cards */
+        .portfolio-card {
+          position: relative;
+          overflow: hidden;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s;
+      }
+
+      .portfolio-card:hover {
+          transform: scale(1.05); /* Slight zoom on hover */
+      }
+
+      .portfolio-card img {
+          width: 100%;
+          height: 100%;
+          transition: transform 0.3s;
+      }
+
+      .portfolio-card:hover img {
+          transform: scale(1.1); /* Image zoom on hover */
+      }
+
+      /* Hover Popup Text Styling */
+      .portfolio-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark overlay */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          color: white;
+          opacity: 0;
+          transition: opacity 0.3s;
+      }
+
+      .portfolio-card:hover .portfolio-overlay {
+          opacity: 1;
+      }
+
+      .portfolio-overlay h5 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+      }
+
+      .portfolio-overlay p {
+          font-size: 1rem;
+          padding: 0 10px;
+      }
+
+      
+
+      
