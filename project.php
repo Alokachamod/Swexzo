@@ -38,12 +38,12 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active position-relative g-6 m-2 " href="#sxproject">
+                                    <a class="nav-link active position-relative g-6 m-2 " href="#">
                                         <p class="htext">Projects</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link position-relative g-6 m-2 " href="#sxteam">
+                                    <a class="nav-link position-relative g-6 m-2 " href="about.php">
                                         <p class="htext">About Us</p>
                                     </a>
                                 </li>

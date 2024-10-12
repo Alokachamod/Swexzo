@@ -377,9 +377,9 @@ body::-webkit-scrollbar {
     height: 100vh;
   }
 
-  .hwwsec{
+  .hwwsec {
     margin-top: -20vh;
-    
+
     font-family: "Share Tech Mono", monospace;
     font-weight: 400px;
     font-style: normal;
@@ -390,7 +390,7 @@ body::-webkit-scrollbar {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400px;
     font-style: normal;
-    
+
   }
 }
 
@@ -399,7 +399,8 @@ body::-webkit-scrollbar {
     margin-top: 10vh;
     height: 100vh;
   }
-  .hwwsec{
+
+  .hwwsec {
     margin-top: 2vh;
     font-family: "Share Tech Mono", monospace;
     font-weight: 400px;
@@ -411,7 +412,7 @@ body::-webkit-scrollbar {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400px;
     font-style: normal;
-    
+
   }
 }
 
@@ -421,7 +422,7 @@ body::-webkit-scrollbar {
     height: 100vh;
   }
 
-  .hwwsec{
+  .hwwsec {
     margin-top: 70vh;
     font-family: "Share Tech Mono", monospace;
     font-weight: 400px;
@@ -433,7 +434,7 @@ body::-webkit-scrollbar {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400px;
     font-style: normal;
-    
+
   }
 }
 
@@ -443,20 +444,20 @@ body::-webkit-scrollbar {
     height: 100vh;
   }
 
-  .hwwsec{
-  margin-top: 160vh;
-  font-family: "Share Tech Mono", monospace;
-  font-weight: 400px;
-  font-style: normal;
-}
+  .hwwsec {
+    margin-top: 160vh;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400px;
+    font-style: normal;
+  }
 
-.teamsec {
-  margin-top: 100vh;
-  font-family: "Share Tech Mono", monospace;
-  font-weight: 400px;
-  font-style: normal;
-  
-}
+  .teamsec {
+    margin-top: 100vh;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400px;
+    font-style: normal;
+
+  }
 }
 
 @media (max-width:375pc) {
@@ -465,9 +466,9 @@ body::-webkit-scrollbar {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400px;
     font-style: normal;
-    
+
   }
-  
+
 }
 
 @media (max-width:320px) {
@@ -476,7 +477,7 @@ body::-webkit-scrollbar {
     height: 100vh;
   }
 
-  .hwwsec{
+  .hwwsec {
     margin-top: 135vh;
     font-family: "Share Tech Mono", monospace;
     font-weight: 400px;
@@ -503,15 +504,16 @@ body::-webkit-scrollbar {
     opacity: 0.5;
     margin-right: 100vw;
   }
+
   to {
     opacity: 1;
     margin: 0;
   }
-  
+
 }
 
 .headsec {
-  
+
   animation: slide 1s ease-out forwards;
   animation-timeline: view(block);
   animation-range: cover 0% cover 50%;
@@ -520,23 +522,23 @@ body::-webkit-scrollbar {
 
 
 .scroll-animate {
-    opacity: 0;
-    transform: translateX(-100px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
 .scroll-animate.visible {
-    opacity: 1;
-    transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .scroll-animate {
-        transition-duration: 1s;
-    }
+  .scroll-animate {
+    transition-duration: 1s;
+  }
 }
 
-.ssec{
+.ssec {
   justify-content: space-between;
 }
 
@@ -547,9 +549,9 @@ body::-webkit-scrollbar {
   color: lightgreen;
 }
 
-.wdesimg{
+.wdesimg {
   margin-top: 10px;
-  
+
 }
 
 .webdes {
@@ -560,7 +562,7 @@ body::-webkit-scrollbar {
   animation-timeline: view(block);
   animation-range: cover 0% cover 50%;
   animation-delay: 0.3s;
-  
+
 }
 
 .webdev {
@@ -571,7 +573,7 @@ body::-webkit-scrollbar {
   animation-timeline: view(block);
   animation-range: cover 0% cover 50%;
   animation-delay: 1s;
-  
+
 }
 
 .webecom {
@@ -582,12 +584,12 @@ body::-webkit-scrollbar {
   animation-timeline: view(block);
   animation-range: cover 0% cover 50%;
   animation-delay: 1.7s;
-  
+
 }
 
-.hwwsec{
-  
-  
+.hwwsec {
+
+
   font-family: "Share Tech Mono", monospace;
   font-weight: 400px;
   font-style: normal;
@@ -622,7 +624,7 @@ body::-webkit-scrollbar {
 
 @media (max-width: 768px) {
   .step-desc {
-      font-size: 0.85rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -637,18 +639,23 @@ body::-webkit-scrollbar {
   transform: translateY(0);
 }
 
-.col-md-6:nth-child(odd) .animate-step { transition-delay: 0.2s; }
-.col-md-6:nth-child(even) .animate-step { transition-delay: 0.4s; }
+.col-md-6:nth-child(odd) .animate-step {
+  transition-delay: 0.2s;
+}
+
+.col-md-6:nth-child(even) .animate-step {
+  transition-delay: 0.4s;
+}
 
 
-.teamhead{
+.teamhead {
   font-family: "Share Tech Mono", monospace;
   font-weight: 400px;
   font-style: normal;
-  
+
 }
 
-.teamhead h1{
+.teamhead h1 {
   font-family: "Share Tech Mono", monospace;
   font-weight: bold;
   font-style: normal;
@@ -657,7 +664,7 @@ body::-webkit-scrollbar {
 
 
 .team-member {
-  
+
   position: relative;
   background: lightgreen;
   border-radius: 15px;
@@ -666,7 +673,7 @@ body::-webkit-scrollbar {
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
-  
+
 
 }
 
@@ -682,8 +689,9 @@ body::-webkit-scrollbar {
 /* Member Info */
 .team-info h5 {
   margin-bottom: 10px;
-  
+
 }
+
 .team-info p {
   color: #6c757d;
   font-size: 0.9rem;
@@ -693,14 +701,18 @@ body::-webkit-scrollbar {
 .social-links {
   margin-top: 15px;
 }
+
 .social-links a {
   font-size: 1.5rem;
   margin: 0 10px;
-  color: #004d40; /* Dark green color */
+  color: #004d40;
+  /* Dark green color */
   transition: color 0.3s;
 }
+
 .social-links a:hover {
-  color: #00796b; /* Lighter green color on hover */
+  color: #00796b;
+  /* Lighter green color on hover */
 }
 
 .teamsec {
@@ -708,7 +720,7 @@ body::-webkit-scrollbar {
   font-family: "Share Tech Mono", monospace;
   font-weight: 400px;
   font-style: normal;
-  
+
 }
 
 .team-member-image {
@@ -744,6 +756,7 @@ body::-webkit-scrollbar {
 .team-member:hover .team-img {
   transform: translateX(-50%) translateY(-20%) scale(1.20);
 }
+
 @keyframes fadeInUp {
   to {
     opacity: 1;
@@ -765,14 +778,26 @@ body::-webkit-scrollbar {
   animation-range: entry 25% cover 50%;
 }
 
-.teamsec .col-md-6:nth-child(1) { animation-range: entry 25% cover 50%; }
-.teamsec .col-md-6:nth-child(2) { animation-range: entry 35% cover 60%; }
-.teamsec .col-md-6:nth-child(3) { animation-range: entry 45% cover 70%; }
-.teamsec .col-md-6:nth-child(4) { animation-range: entry 55% cover 80%; }
+.teamsec .col-md-6:nth-child(1) {
+  animation-range: entry 25% cover 50%;
+}
+
+.teamsec .col-md-6:nth-child(2) {
+  animation-range: entry 35% cover 60%;
+}
+
+.teamsec .col-md-6:nth-child(3) {
+  animation-range: entry 45% cover 70%;
+}
+
+.teamsec .col-md-6:nth-child(4) {
+  animation-range: entry 55% cover 80%;
+}
 
 
 footer {
-  background-color: #004d40; /* Dark background */
+  background-color: #004d40;
+  /* Dark background */
   height: auto;
 }
 
@@ -781,11 +806,15 @@ footer a {
 }
 
 footer a:hover {
-  color: #01fc69; /* Change color on hover */
+  color: #01fc69;
+  /* Change color on hover */
 }
+
 .footer .text-white.text-decoration-none:hover {
-  color: #01fc69 !important; /* Light green color */
-  transition: color 0.3s ease; /* Smooth transition effect */
+  color: #01fc69 !important;
+  /* Light green color */
+  transition: color 0.3s ease;
+  /* Smooth transition effect */
 }
 
 /* Animation for the footer */
@@ -796,7 +825,7 @@ footer {
 
 @keyframes fadeIn {
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -822,11 +851,11 @@ footer {
 }
 
 .service-section {
-  
+
   margin: 20px 0;
   padding: 20px;
   transition: all 0.5s ease-in-out;
-  
+
 }
 
 /* Styling for Text Sections */
@@ -856,12 +885,13 @@ footer {
 /* Fade Animation */
 @keyframes fadeInUp {
   0% {
-      opacity: 0;
-      transform: translateY(50px);
+    opacity: 0;
+    transform: translateY(50px);
   }
+
   100% {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -874,16 +904,16 @@ footer {
 /* Media Queries for Responsive Design */
 @media only screen and (max-width: 768px) {
   .service-section {
-      padding: 15px;
-      margin: 15px 0;
+    padding: 15px;
+    margin: 15px 0;
   }
 
   .text-section h2 {
-      font-size: 24px;
+    font-size: 24px;
   }
 
   .text-section p {
-      font-size: 14px;
+    font-size: 14px;
   }
 }
 
@@ -902,60 +932,59 @@ footer {
   justify-content: center;
 }
 
-        /* Styling the Project Cards */
-        .portfolio-card {
-          position: relative;
-          overflow: hidden;
-          border-radius: 8px;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          transition: transform 0.3s;
-      }
+/* Styling the Project Cards */
+.portfolio-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
 
-      .portfolio-card:hover {
-          transform: scale(1.05); /* Slight zoom on hover */
-      }
+.portfolio-card:hover {
+  transform: scale(1.05);
+  /* Slight zoom on hover */
+}
 
-      .portfolio-card img {
-          width: 100%;
-          height: 100%;
-          transition: transform 0.3s;
-      }
+.portfolio-card img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+}
 
-      .portfolio-card:hover img {
-          transform: scale(1.1); /* Image zoom on hover */
-      }
+.portfolio-card:hover img {
+  transform: scale(1.1);
+  /* Image zoom on hover */
+}
 
-      /* Hover Popup Text Styling */
-      .portfolio-overlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark overlay */
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-          color: white;
-          opacity: 0;
-          transition: opacity 0.3s;
-      }
+/* Hover Popup Text Styling */
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  /* Semi-transparent dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
 
-      .portfolio-card:hover .portfolio-overlay {
-          opacity: 1;
-      }
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
 
-      .portfolio-overlay h5 {
-          font-size: 1.5rem;
-          margin-bottom: 10px;
-      }
+.portfolio-overlay h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 
-      .portfolio-overlay p {
-          font-size: 1rem;
-          padding: 0 10px;
-      }
-
-      
-
-      
+.portfolio-overlay p {
+  font-size: 1rem;
+  padding: 0 10px;
+}

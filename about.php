@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,15 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="resources/swexzo logo.jpg">
-        <!--font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <!--font-->
 </head>
+
 <body>
-<header>
+    <header>
         <div class="container-fluid">
             <div class="col-12">
                 <nav class="navbar navbar-expand-xl col-10 offset-1 header fixed-top">
@@ -39,12 +41,12 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link  position-relative g-6 m-2 " href="#sxproject">
+                                    <a class="nav-link  position-relative g-6 m-2 " href="project.php">
                                         <p class="htext">Projects</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active position-relative g-6 m-2 " href="#sxteam">
+                                    <a class="nav-link active position-relative g-6 m-2 " href="#">
                                         <p class="htext">About Us</p>
                                     </a>
                                 </li>
@@ -70,13 +72,23 @@
         <div class="owbg"></div>
         <div class="hbtext">
             <div class="header-content">
-                <h1 class="text-center bhead animate-text">Our Portfolio of Excellence</h1>
+                <h1 class="text-center bhead animate-text">About Swexzo</h1>
                 <br />
-                <h4 class="text-center bdesc animate-text">Take a look at how we’ve helped businesses transform their digital presence. From web design to complex e-commerce solutions, our work speaks for itself.</h4>
+                <h4 class="text-center bdesc animate-text">Swexzo is a software company focused on delivering innovative web design, development, and e-commerce solutions to help businesses succeed in the digital world.</h4>
             </div>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <div class="col-12">
+                <div class="col-lg-6 col-md-12">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </main>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
