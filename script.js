@@ -31,5 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
     checkScroll(); // Check on initial load
 });
 
+window.addEventListener("load", function() {
+    const preloader = document.getElementById("preloader");
+    const content = document.getElementById("content");
 
+    preloader.style.display = "none"; // Hide the preloader
+    content.style.display = "block"; // Show the content
+});
 
